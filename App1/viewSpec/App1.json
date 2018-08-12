@@ -21,6 +21,7 @@
           "type" : "view"
         }
       ],
+      "cssClass" : "trillo-container-row",
       "designTimeHeight" : "49px",
       "tag" : "templateE",
       "type" : "row"
@@ -51,7 +52,8 @@
               "alignment" : "top",
               "autoNav" : false,
               "css" : {
-                "padding-top" : "20px"
+                "padding-top" : "20px",
+                "flex-grow" : "1"
               },
               "flexGrow" : "1",
               "reference" : "HomePage",
@@ -60,6 +62,10 @@
               "type" : "view"
             }
           ],
+          "css" : {
+            "flex-grow" : "1"
+          },
+          "cssClass" : "trillo-container-column",
           "designTimeHeight" : "100px",
           "flexGrow" : "1",
           "main" : true,
@@ -67,10 +73,22 @@
           "type" : "column"
         }
       ],
+      "css" : {
+        "flex-grow" : "1"
+      },
+      "cssClass" : "trillo-container-row",
       "flexGrow" : "1",
       "main" : true,
       "tag" : "templateE",
       "type" : "row"
     }
-  ]
+  ],
+  "css" : {
+    "display" : "flex",
+    "flex-direction" : "column",
+    "flex-grow" : "1",
+    "background-color" : "#eeeeee",
+    "border" : "1px solid #0000FF"
+  },
+  "cssClass" : "trillo-container"
 }
