@@ -88,7 +88,7 @@
     "flex-direction" : "column",
     "flex-grow" : "1",
     "background-color" : "#eeeeee",
-    "border" : "5px solid #0000FF"
+    "border" : "5px solid #FF0000"
   },
   "cssClass" : "trillo-container"
 }
