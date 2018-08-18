@@ -25,7 +25,11 @@
 .sign-up-message, .forgot-password-message, .reset-password-message {
   font-size: 15px;
   line-height: 20px;
-  padding:15px;
+  margin: 20px;
+}
+
+.sign-up-message .card, .forgot-password-message .card, .reset-password-message .card, .auth-page .card {
+  padding:20px;
 }
 
 .forgot-password-form, .reset-password-form {
