@@ -1,0 +1,5 @@
+{
+  "name" : "P2",
+  "roles" : "tab,table",
+  "roleGroupOperator" : "or"
+}

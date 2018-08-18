@@ -1,0 +1,5 @@
+{
+  "name" : "P1",
+  "roles" : "chart,container",
+  "roleGroupOperator" : "or"
+}
